@@ -6,22 +6,22 @@ import (
 	"testing"
 )
 
-func TestExecSQL(t *testing.T) {
-	db := GetConnection()
-	defer db.Close()
+// func TestExecSQL(t *testing.T) {
+// 	db := GetConnection()
+// 	defer db.Close()
 
-	ctx := context.Background()
+// 	ctx := context.Background()
 
-	script := "INSERT INTO post_article(title, content, category, created_date, updated_date, status) VALUES('Judul', 'isi konten', 'kategori', '2022-10-10 05:15:15', '2022-10-12 05:15:15', 'Publish')"
+// 	script := "INSERT INTO post_article(title, content, category, created_date, updated_date, status) VALUES('Judul', 'isi konten', 'kategori', '2022-10-10 05:15:15', '2022-10-12 05:15:15', 'Publish')"
 
-	_, err := db.ExecContext(ctx, script)
-	if err != nil {
-		panic(err)
-	}
+// 	_, err := db.ExecContext(ctx, script)
+// 	if err != nil {
+// 		panic(err)
+// 	}
 
-	fmt.Println("Success insert to post_article")
+// 	fmt.Println("Success insert to post_article")
 
-}
+// }
 
 func TextReturnSQL(t *testing.T) {
 	db := GetConnection()
