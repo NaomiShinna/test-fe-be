@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/NaomiShinna/test-fe-be/tree/main/api-article/helper"
+	"github.com/NaomiShinna/test-fe-be/api-article/helper"
 
 	"gorm.io/gorm"
 
-	"github.com/NaomiShinna/test-fe-be/tree/main/api-article/models"
+	"github.com/NaomiShinna/test-fe-be/api-article/models"
 
 	"github.com/gorilla/mux"
 )

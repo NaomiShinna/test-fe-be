@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/NaomiShinna/test-fe-be/tree/main/api-article/controllers/articlecontroller"
-	"github.com/NaomiShinna/test-fe-be/tree/main/api-article/models"
+	"github.com/NaomiShinna/test-fe-be/api-article/controllers/articlecontroller"
+	"github.com/NaomiShinna/test-fe-be/api-article/models"
 
 	"github.com/gorilla/mux"
 )
